@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <header>
-          <div className="logo">Yuval.dev</ div>
+          <h3 className="logo">Yuval.dev</ h3>
           <nav>
             <a href="#Home">Home</a>
             <a href="#About">About</a>
