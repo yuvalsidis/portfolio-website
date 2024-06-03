@@ -5,9 +5,11 @@ function MainSection() {
   return (
     <main>
       <section id="home">
-        <h1>Front-End React Developer</h1>
-        <p> Hi i am yuval sidis, A passionate Front-End and React 📍</p>
-        <p> Developer based in israel.</p>
+        <div className='content'>
+          <h1>Front-End React Developer 👋🏻</h1>
+          <p> Hi i am yuval sidis, A passionate Front-End and React 📍</p>
+          <p> Developer based in israel.</p>
+        </div>
       </section>
       <section id="about">
         <h2>ABOUT ME</h2>
