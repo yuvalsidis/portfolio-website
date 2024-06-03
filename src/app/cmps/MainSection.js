@@ -1,11 +1,12 @@
 // MainSection.js
 import React from 'react';
+import styles from '../styles/mainsection.module.scss'
 
 function MainSection() {
   return (
     <main>
-      <section id="home">
-        <div className='content'>
+      <section id="home" className={styles.hero}>
+        <div className={styles.heroContainer}>
           <h1>Front-End React Developer 👋🏻</h1>
           <p> Hi i am yuval sidis, A passionate Front-End and React 📍</p>
           <p> Developer based in israel.</p>
@@ -39,9 +40,6 @@ function MainSection() {
           <p>Mail</p>
           <p>yuvalsidis@gmail.com</p>
         </div>
-
-
-
       </section>
     </main>
   );
