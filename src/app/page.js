@@ -1,7 +1,10 @@
 import Image from "next/image";
+import MainSection from "./cmps/main-section";
 
 export default function Home() {
   return (
-    <h1>Hello, Next.js!</h1>
+    <div>
+      <MainSection/>
+    </div>
   );
 }
