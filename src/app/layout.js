@@ -8,14 +8,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <header>
-          <h1>Front-End React Developer</h1>
-          <p> Hi i am yuval sidis, A passionate Front-End and React</p>
-          <p> Developer based in israel.</p>
+          <div className="logo">Yuval.dev</ div>
           <nav>
-            <a href="/">Home</a>
-            <a href="/about">About</a>
-            <a hred="/project">Projects</a>
-            <a href="/contact">Contact</a>
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Project">Projects</a>
+            <a href="#  Contact">Contact</a>
           </nav>
         </header>
         <main>{children}</main>
