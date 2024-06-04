@@ -66,6 +66,7 @@ function MainSection() {
         <div className={styles.aboutContainer}>
           <div className={styles.aboutContent}>
             <div className={styles.aboutImg}>
+              <img src=''></img>
             </div>
             <div className={styles.aboutText}>
               <h2>ABOUT ME</h2>
