@@ -1,7 +1,8 @@
 
 import { Children } from "react";
 import "./globals.css";
-
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function RootLayout({ children }) {
   return (
@@ -18,7 +19,15 @@ export default function RootLayout({ children }) {
         </header>
         <main>{children}</main>
         <footer>
-          <p>© 2023 My Website</p>
+          <div className='footerContainer'>
+            <div className='footerc'>
+              <p>© 2024 My Website</p>
+              <div>
+                <LinkedInIcon style={{ color: 'white' }} />
+                <GitHubIcon style={{ color: 'white' }} />
+              </div>
+            </div>
+          </div>
         </footer>
       </body>
     </html>
