@@ -177,14 +177,18 @@
 .aboutContent {
     display: grid;
     align-items: center;
+    justify-items: center;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
-    
+    gap: 3rem;
 }
 
 .aboutImg {
     position: relative;
-
+    background-image: url(/img/img1.jpg);
+    border-radius: 1.7rem;
+    height: 20rem;
+    width: 26rem;
 }
 
 .aboutText {
@@ -205,5 +209,12 @@
     p {
         color: #555;
         font-weight: bold;
+    }
+}
+
+@media (max-width: 1020px){
+    .aboutContent{
+        grid-template-columns: 1fr;
+        text-align: center;
     }
 }
