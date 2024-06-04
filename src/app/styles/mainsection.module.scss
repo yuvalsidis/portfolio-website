@@ -261,6 +261,10 @@
         grid-template-columns: 1fr;
         text-align: center;
     }
+
+    .rotatedSvg{
+        right: 3px;
+    }
 }
 
 @media (max-width: 900px) {
