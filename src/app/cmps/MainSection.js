@@ -12,8 +12,8 @@ function MainSection() {
           <div className={styles.heroContent}>
             <div className={styles.heroMain}>
               <div className={styles.heroText}>
-                <h1>Front-End React Developer 👋🏻</h1>
-                <p> Hi, i am yuval sidis. A passionate Front-End and React Developer based in israel. 📍</p>
+                <h1>Fullstack React Developer 👋🏻</h1>
+                <p> Hi, i am yuval sidis. A passionate Fullstack and React Developer based in israel. 📍</p>
                 <div className={styles.heroLinks}>
                   <a href='https://www.linkedin.com/in/yuval-sidis-7789122a0/'><LinkedInIcon/></a>
                   <a href='https://github.com/yuvalsidis'><GitHubIcon /></a>
@@ -49,6 +49,9 @@ function MainSection() {
                   <img src='https://skillicons.dev/icons?i=vite'></img>
                 </li>
                 <li>
+                <img src='https://skillicons.dev/icons?i=nodejs'></img>
+                </li>
+                <li>
                   <img src='https://skillicons.dev/icons?i=npm'></img>
                 </li>
                 <li>
@@ -61,7 +64,7 @@ function MainSection() {
       </section>
       <section id="about">
         <h2>ABOUT ME</h2>
-        <h1>Frontend Developer Based in Israel 📍</h1>
+        <h1>Fullstack Developer Based in Israel 📍</h1>
         <p>Hey there, I'm Yuval Sidis, a Frontend Developer with a passion for crafting beautiful,
           clean websites. My main focus is on frontend development,
           where I specialize in creating seamless user experiences and captivating interfaces.
