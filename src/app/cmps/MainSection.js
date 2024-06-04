@@ -3,6 +3,9 @@ import React from 'react';
 import styles from '../styles/mainsection.module.scss'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
+import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
+import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 
 function MainSection() {
   return (
@@ -92,16 +95,58 @@ function MainSection() {
           <p> New projects coming soon.. 🤠 </p>
         </div>
       </section>
-      <section id="contact">
-        <h2>Contact</h2>
-        <h1>Don't be shy! Hit me up! 👇</h1>
-        <div>
-          <p>Location</p>
-          <p>Israel</p>
-        </div>
-        <div>
-          <p>Mail</p>
-          <p>yuvalsidis@gmail.com</p>
+      <section id="contact" className={styles.contact}>
+        <div className={styles.contactContainer}>
+          <div className={styles.contactContant}>
+            <div className={styles.contactTitles}>
+              <h4>Contact</h4>
+              <p>Don't be shy! Hit me up! 👇</p>
+            </div>
+            <div className={styles.contactReasources}>
+              <div className={styles.ResourceItem}>
+                <div>
+                  <LocationOnOutlinedIcon style={{
+                    backgroundColor: '#007bff',
+                    color: 'white',
+                    borderRadius: '50%',
+                    padding: '5px', 
+                  }}/>
+                </div>
+                <div>
+                  <p>Location</p>
+                  <p>Israel</p>
+                </div>
+              </div>
+              <div className={styles.ResourceItem}>
+                <div>
+                  <EmailOutlinedIcon style={{
+                    backgroundColor: '#007bff',
+                    color: 'white',
+                    borderRadius: '50%',
+                    padding: '5px', 
+                  }}/>
+                </div>
+                <div>
+                  <p>mail</p>
+                  <p>yuvalsidis@gmail.com</p>
+                </div>
+              </div>
+              <div className={styles.ResourceItem}>
+                <div>
+                  <LocalPhoneOutlinedIcon style={{
+                    backgroundColor: '#007bff',
+                    color: 'white',
+                    borderRadius: '50%',
+                    padding: '5px', 
+                  }} />
+                </div>
+                <div>
+                  <p>phone</p>
+                  <p>+972532778502</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </>

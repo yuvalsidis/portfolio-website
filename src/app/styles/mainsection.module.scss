@@ -87,7 +87,7 @@
         li {
             margin-left: 10px;
 
-            &:hover{
+            &:hover {
                 animation: shake 0.5s
             }
         }
@@ -198,7 +198,7 @@
     width: 26rem;
 }
 
-.workEmoji{
+.workEmoji {
     bottom: 35px;
     position: absolute;
     left: 82%;
@@ -208,7 +208,7 @@
     z-index: 100;
 }
 
-.rotatedSvg{
+.rotatedSvg {
     position: absolute;
     animation: spin 9s linear infinite;
     width: 10rem;
@@ -217,19 +217,20 @@
 
 @keyframes spin {
     from {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
-    to {
-      transform:rotate(360deg);
-    }
-  }
 
-.aboutImgSpan{
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.aboutImgSpan {
     background-color: white;
-    border-radius: 50%; 
+    border-radius: 50%;
     right: 0;
     bottom: 0;
-    transform: translate(22%,25%);
+    transform: translate(22%, 25%);
     height: 10rem;
     position: absolute;
     width: 10rem;
@@ -262,7 +263,7 @@
         text-align: center;
     }
 
-    .rotatedSvg{
+    .rotatedSvg {
         right: 3px;
     }
 }
@@ -283,8 +284,8 @@
         width: 20rem;
     }
 
-    .workEmoji{
-       left: 75%
+    .workEmoji {
+        left: 75%
     }
 }
 
@@ -295,31 +296,113 @@
 }
 
 @keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(-1deg); }
-    20% { transform: translate(-3px, 0px) rotate(1deg); }
-    30% { transform: translate(3px, 2px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(1deg); }
-    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-    60% { transform: translate(-3px, 1px) rotate(0deg); }
-    70% { transform: translate(3px, 1px) rotate(-1deg); }
-    80% { transform: translate(-1px, -1px) rotate(1deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
-  }
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
 
-  .projects{
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+.projects {
     background-color: #f9f9f9;
     padding: 10rem 0;
-  }
-  .projectsContainer{
+}
+
+.projectsContainer {
     margin: 0 auto;
     max-width: 107rem;
     padding: 0 4rem;
 
-    p{
+    p {
         text-align: center;
         color: #555;
         font-weight: bold;
     }
-  }
+}
+
+.contact {
+    background-color: #fff;
+    padding: 7rem 0;
+}
+
+.contactContainer {
+    margin: 0 auto;
+    max-width: 107rem;
+    padding: 0 4rem;
+}
+
+.contactContant {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactTitles {
+    text-align: center;
+
+    h4 {
+        color: #147efb;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 1.56rem;
+        font-family: 'MainFont-bold'
+    }
+}
+
+.contactReasources {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+
+    .ResourceItem {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        gap: 10px;
+        color: #555;
+        font-weight: bold;
+        p{
+            line-height: 0.2rem;
+        }
+    }
+}
