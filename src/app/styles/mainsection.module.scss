@@ -406,3 +406,9 @@
         }
     }
 }
+
+@media (max-width: 650px){
+    .contactReasources{
+        flex-direction: column;
+    }
+}

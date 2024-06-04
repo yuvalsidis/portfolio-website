@@ -106,7 +106,7 @@ function MainSection() {
               <div className={styles.ResourceItem}>
                 <div>
                   <LocationOnOutlinedIcon style={{
-                    backgroundColor: '#007bff',
+                    backgroundColor: '#147efb',
                     color: 'white',
                     borderRadius: '50%',
                     padding: '5px', 
@@ -120,7 +120,7 @@ function MainSection() {
               <div className={styles.ResourceItem}>
                 <div>
                   <EmailOutlinedIcon style={{
-                    backgroundColor: '#007bff',
+                    backgroundColor: '#147efb',
                     color: 'white',
                     borderRadius: '50%',
                     padding: '5px', 
@@ -134,7 +134,7 @@ function MainSection() {
               <div className={styles.ResourceItem}>
                 <div>
                   <LocalPhoneOutlinedIcon style={{
-                    backgroundColor: '#007bff',
+                    backgroundColor: '#147efb',
                     color: 'white',
                     borderRadius: '50%',
                     padding: '5px', 
