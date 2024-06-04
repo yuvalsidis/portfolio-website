@@ -87,9 +87,10 @@ function MainSection() {
           </div>
         </div>
       </section>
-      <section id="projects">
-        <h1>Projects Section</h1>
-        <p> New projects coming soon.. 🤠 </p>
+      <section id="projects" className={styles.projects}>
+        <div className={styles.projectsContainer}>
+          <p> New projects coming soon.. 🤠 </p>
+        </div>
       </section>
       <section id="contact">
         <h2>Contact</h2>
