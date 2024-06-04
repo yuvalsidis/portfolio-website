@@ -7,9 +7,20 @@ function MainSection() {
     <main>
       <section id="home" className={styles.hero}>
         <div className={styles.heroContainer}>
-          <h1>Front-End React Developer 👋🏻</h1>
-          <p> Hi i am yuval sidis, A passionate Front-End and React 📍</p>
-          <p> Developer based in israel.</p>
+          <div className={styles.heroContent}>
+            <div className={styles.heroMain}>
+              <div className={styles.heroText}>
+                <h1>Front-End React Developer 👋🏻</h1>
+                <p> Hi, i am yuval sidis. A passionate Front-End and React Developer based in israel. 📍  </p>
+              </div>
+              <div className={styles.heroImg}>
+                <p>img</p>
+              </div>
+            </div>
+            <div className={styles.skills}>
+              <p>react</p>
+            </div>
+          </div>
         </div>
       </section>
       <section id="about">
