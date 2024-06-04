@@ -59,7 +59,11 @@
 .heroLinks{
     a{
         color: #2D2E32;
+        &:hover{
+            color: blue;
+        }
     }
+
 }
 
 .skills{
