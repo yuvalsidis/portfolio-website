@@ -22,7 +22,30 @@ function MainSection() {
               <div className={styles.heroImg}></div>
             </div>
             <div className={styles.skills}>
-              <p>react</p>
+              <p>Tech stack</p>
+              <ul>
+                <li>
+                  <img src='https://skillicons.dev/icons?i=html,css'></img>
+                </li>
+                <li>
+                  <img src='https://skillicons.dev/icons?i=js,ts'></img>
+                </li>
+                <li>
+                  <img src='https://skillicons.dev/icons?i=react,next'></img>
+                </li>
+                <li>
+                  <img src='https://skillicons.dev/icons?i=sass'></img>
+                </li>
+                <li>
+                  <img src='https://skillicons.dev/icons?i=vite'></img>
+                </li>
+                <li>
+                  <img src='https://skillicons.dev/icons?i=npm'></img>
+                </li>
+                <li>
+                  <img src='https://skillicons.dev/icons?i=git'></img>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

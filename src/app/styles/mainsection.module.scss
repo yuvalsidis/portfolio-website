@@ -67,7 +67,12 @@
 }
 
 .skills{
-
+    display: flex;
+     p{
+        color: #555;
+        font-size: 1.13rem;
+        font-weight: bold;
+     }
 }
 
 .heroImg {
