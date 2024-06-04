@@ -6,7 +6,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 function MainSection() {
   return (
-    <main>
+    <>
       <section id="home" className={styles.hero}>
         <div className={styles.heroContainer}>
           <div className={styles.heroContent}>
@@ -91,7 +91,7 @@ function MainSection() {
           <p>yuvalsidis@gmail.com</p>
         </div>
       </section>
-    </main>
+    </>
   );
 }
 

@@ -1,5 +1,5 @@
-.hero{
-    background-color: rgb(249,249,249);
+.hero {
+    background-color: rgb(249, 249, 249);
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -7,14 +7,14 @@
     width: 100%;
 }
 
-.heroContainer{
-   margin: 0 auto;
-   max-width: 107rem;
-   padding: 0 4rem;
-   position: relative;
+.heroContainer {
+    margin: 0 auto;
+    max-width: 107rem;
+    padding: 0 4rem;
+    position: relative;
 }
 
-.heroContent{
+.heroContent {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -25,27 +25,28 @@
 
 }
 
-.heroMain{
-   display: flex;
-   align-items: center;
-   gap: 5rem;
-   justify-content: center;
-   position: relative;
+.heroMain {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    justify-content: center;
+    position: relative;
 }
 
-.heroText{
+.heroText {
     display: flex;
     flex-direction: column;
     max-width: 40rem;
     line-height: 4rem;
 
-    h1{
+    h1 {
         font-size: 3.43rem;
         color: #2D2E32;
         font-family: 'MainFont-bold';
         margin: 20px 0px;
     }
-    p{
+
+    p {
         color: #555;
         font-size: 1.13rem;
         max-width: 30rem;
@@ -56,32 +57,36 @@
 }
 
 
-.heroLinks{
-    a{
+.heroLinks {
+    a {
         color: #2D2E32;
-        &:hover{
+
+        &:hover {
             color: blue;
         }
     }
 
 }
 
-.skills{
+.skills {
     display: flex;
     align-items: center;
-     p{
+
+    p {
         color: #555;
         font-size: 1.13rem;
         font-weight: bold;
-     }
-     ul{
+    }
+
+    ul {
         padding: 20px;
         display: flex;
         list-style: none;
-        li{
+
+        li {
             margin-left: 10px;
         }
-     }
+    }
 }
 
 .heroImg {
@@ -97,16 +102,59 @@
     position: relative;
     transition: all 1s ease-in-out;
     width: 20rem;
-}   
+}
 
-@keyframes morph{
+@keyframes morph {
     0% {
         border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     }
+
     50% {
         border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
     }
+
     100% {
         border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     }
 }
+
+@media (max-width: 900px) {
+    .heroContainer{
+        margin: 0px;
+    }
+    .heroMain {
+        flex-direction: column-reverse;
+        gap: 5rem;
+        text-align: center;
+        height: auto;
+    }
+
+    .heroContent {
+        height: auto;
+        text-align: center;
+        
+        p{
+          align-self: center;
+        }
+
+        .heroImg{
+            margin-top: 2rem;
+        }
+    }
+
+    .skills{
+         flex-direction: column;
+         ul{
+             display: flex;
+             flex-wrap: wrap;
+         }
+    }
+
+}
+
+@media (max-width: 460px) {
+    .container {
+        padding: 0 1.7rem;
+    }
+}
+
