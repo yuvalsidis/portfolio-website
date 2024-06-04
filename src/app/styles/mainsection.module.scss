@@ -55,6 +55,17 @@
     }
 }
 
+
+.heroLinks{
+    a{
+        color: #2D2E32;
+    }
+}
+
+.skills{
+
+}
+
 .heroImg {
     -webkit-animation: morph 8s ease-in-out infinite;
     animation: morph 8s ease-in-out infinite;
@@ -69,10 +80,6 @@
     transition: all 1s ease-in-out;
     width: 20rem;
 }   
-
-.skills{
-
-}
 
 @keyframes morph{
     0% {

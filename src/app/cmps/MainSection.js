@@ -1,6 +1,8 @@
 // MainSection.js
 import React from 'react';
 import styles from '../styles/mainsection.module.scss'
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 function MainSection() {
   return (
@@ -11,7 +13,11 @@ function MainSection() {
             <div className={styles.heroMain}>
               <div className={styles.heroText}>
                 <h1>Front-End React Developer 👋🏻</h1>
-                <p> Hi, i am yuval sidis. A passionate Front-End and React Developer based in israel. 📍  </p>
+                <p> Hi, i am yuval sidis. A passionate Front-End and React Developer based in israel. 📍</p>
+                <div className={styles.heroLinks}>
+                  <a href='https://www.linkedin.com/in/yuval-sidis-7789122a0/'><LinkedInIcon/></a>
+                  <a href='https://github.com/yuvalsidis'><GitHubIcon /></a>
+                </div>
               </div>
               <div className={styles.heroImg}></div>
             </div>
