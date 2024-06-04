@@ -13,9 +13,7 @@ function MainSection() {
                 <h1>Front-End React Developer 👋🏻</h1>
                 <p> Hi, i am yuval sidis. A passionate Front-End and React Developer based in israel. 📍  </p>
               </div>
-              <div className={styles.heroImg}>
-                <p>img</p>
-              </div>
+              <div className={styles.heroImg}></div>
             </div>
             <div className={styles.skills}>
               <p>react</p>
