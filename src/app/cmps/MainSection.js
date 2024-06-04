@@ -6,6 +6,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+import Image from 'next/image';
 
 function MainSection() {
   return (
@@ -28,37 +29,37 @@ function MainSection() {
               <p>Tech stack</p>
               <ul>
                 <li>
-                  <img src='https://skillicons.dev/icons?i=html'></img>
+                  <Image src='https://skillicons.dev/icons?i=html' alt="img"></Image>
                 </li>
                 <li>
-                  <img src='https://skillicons.dev/icons?i=css'></img>
+                  <Image src='https://skillicons.dev/icons?i=css' alt="img"></Image>
                 </li>
                 <li>
-                  <img src='https://skillicons.dev/icons?i=js'></img>
+                  <Image src='https://skillicons.dev/icons?i=js' alt="img"></Image>
                 </li>
                 <li>
-                  <img src='https://skillicons.dev/icons?i=ts'></img>
+                  <Image src='https://skillicons.dev/icons?i=ts' alt="img"></Image>
                 </li>
                 <li>
-                  <img src='https://skillicons.dev/icons?i=react'></img>
+                  <Image src='https://skillicons.dev/icons?i=react' alt="img"></Image>
                 </li>
                 <li>
-                  <img src='https://skillicons.dev/icons?i=next'></img>
+                  <Image src='https://skillicons.dev/icons?i=next' alt="img"></Image>
                 </li>
                 <li>
-                  <img src='https://skillicons.dev/icons?i=sass'></img>
+                  <Image src='https://skillicons.dev/icons?i=sass' alt="img"></Image>
                 </li>
                 <li>
-                  <img src='https://skillicons.dev/icons?i=vite'></img>
+                  <Image src='https://skillicons.dev/icons?i=vite' alt="img"></Image>
                 </li>
                 <li>
-                  <img src='https://skillicons.dev/icons?i=nodejs'></img>
+                  <Image src='https://skillicons.dev/icons?i=nodejs' alt="img"></Image>
                 </li>
                 <li>
-                  <img src='https://skillicons.dev/icons?i=npm'></img>
+                  <Image src='https://skillicons.dev/icons?i=npm' alt="img"></Image>
                 </li>
                 <li>
-                  <img src='https://skillicons.dev/icons?i=git'></img>
+                  <Image src='https://skillicons.dev/icons?i=git' alt="img"></Image>
                 </li>
               </ul>
             </div>
@@ -69,15 +70,15 @@ function MainSection() {
         <div className={styles.aboutContainer}>
           <div className={styles.aboutContent}>
             <div className={styles.aboutImg}>
-              <img src='/img/workEmoji.png' className={styles.workEmoji}></img>
+              <Image src='/img/workEmoji.png' className={styles.workEmoji} alt="img"></Image>
               <span className={styles.aboutImgSpan}>
-                <img src='img/RotatedSVG.svg' className={styles.rotatedSvg}></img>
+                <Image src='img/RotatedSVG.svg' className={styles.rotatedSvg} alt="img"></Image>
               </span>
             </div>
             <div className={styles.aboutText}>
               <h2>ABOUT ME</h2>
               <h1>Fullstack Developer Based in Israel 📍</h1>
-              <p>Hey there, I'm Yuval Sidis, a Fullstack Developer with a passion for crafting beautiful,
+              <p>Hey there, I am Yuval Sidis, a Fullstack Developer with a passion for crafting beautiful,
                 clean websites. My main focus is on frontend development,
                 where I specialize in creating seamless user experiences and captivating interfaces.
               </p>
@@ -100,7 +101,7 @@ function MainSection() {
           <div className={styles.contactContant}>
             <div className={styles.contactTitles}>
               <h4>Contact</h4>
-              <p>Don't be shy! Hit me up! 👇</p>
+              <p>Dont be shy! Hit me up! 👇</p>
             </div>
             <div className={styles.contactReasources}>
               <div className={styles.ResourceItem}>
