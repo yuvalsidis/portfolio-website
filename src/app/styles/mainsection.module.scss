@@ -12,6 +12,7 @@
     max-width: 107rem;
     padding: 0 4rem;
     position: relative;
+    background-color: rgb(249, 249, 249);
 }
 
 .heroContent {
@@ -170,8 +171,8 @@
 .aboutContainer {
     margin: 0 auto;
     max-width: 107rem;
-    padding: 0 4rem;
-    
+    padding: 4rem 4rem;
+
 }
 
 .aboutContent {
@@ -193,7 +194,7 @@
 
 .aboutText {
     padding-right: 1.5rem;
-    
+
     h2 {
         color: #147efb;
         font-size: 1.1rem;
@@ -203,18 +204,41 @@
     h1 {
         font-family: 'MainFont-bold';
         color: #2D2E32;
-       
+
     }
-    
+
     p {
         color: #555;
         font-weight: bold;
     }
 }
 
-@media (max-width: 1020px){
-    .aboutContent{
+@media (max-width: 1020px) {
+    .aboutContent {
         grid-template-columns: 1fr;
         text-align: center;
+    }
+}
+
+@media (max-width: 900px) {
+    .aboutContent {
+        padding-top: 200px;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .about {
+        margin-top: 100px;
+    }
+
+    .aboutImg {
+        height: 15rem;
+        width: 20rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .about {
+        margin-top: 150px;
     }
 }
