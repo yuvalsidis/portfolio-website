@@ -68,10 +68,18 @@
 
 .skills{
     display: flex;
+    align-items: center;
      p{
         color: #555;
         font-size: 1.13rem;
         font-weight: bold;
+     }
+     ul{
+        display: flex;
+        list-style: none;
+        li{
+            margin-left: 10px;
+        }
      }
 }
 

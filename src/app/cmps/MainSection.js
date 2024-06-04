@@ -25,13 +25,22 @@ function MainSection() {
               <p>Tech stack</p>
               <ul>
                 <li>
-                  <img src='https://skillicons.dev/icons?i=html,css'></img>
+                  <img src='https://skillicons.dev/icons?i=html'></img>
                 </li>
                 <li>
-                  <img src='https://skillicons.dev/icons?i=js,ts'></img>
+                  <img src='https://skillicons.dev/icons?i=css'></img>
                 </li>
                 <li>
-                  <img src='https://skillicons.dev/icons?i=react,next'></img>
+                  <img src='https://skillicons.dev/icons?i=js'></img>
+                </li>
+                <li>
+                  <img src='https://skillicons.dev/icons?i=ts'></img>
+                </li>
+                <li>
+                  <img src='https://skillicons.dev/icons?i=react'></img>
+                </li>
+                <li>
+                  <img src='https://skillicons.dev/icons?i=next'></img>
                 </li>
                 <li>
                   <img src='https://skillicons.dev/icons?i=sass'></img>
