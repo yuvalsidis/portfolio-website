@@ -199,13 +199,42 @@
 }
 
 .workEmoji{
-    background-image: url(/img/coolGuy.jpg);
     bottom: 35px;
     position: absolute;
-    right: 98px;
-    width: 6rem !important;
+    left: 82%;
+    transform: translate(0, 25%);
+    width: 4rem !important;
+    height: 4rem;
     z-index: 100;
 }
+
+.rotatedSvg{
+    position: absolute;
+    animation: spin 9s linear infinite;
+    width: 10rem;
+    z-index: 99;
+}
+
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform:rotate(360deg);
+    }
+  }
+
+.aboutImgSpan{
+    background-color: white;
+    border-radius: 50%; 
+    right: 0;
+    bottom: 0;
+    transform: translate(22%,25%);
+    height: 10rem;
+    position: absolute;
+    width: 10rem;
+}
+
 .aboutText {
     padding-right: 1.5rem;
 

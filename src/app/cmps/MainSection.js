@@ -66,7 +66,10 @@ function MainSection() {
         <div className={styles.aboutContainer}>
           <div className={styles.aboutContent}>
             <div className={styles.aboutImg}>
-              <div className={styles.workEmoji}></div>
+              <img src='/img/workEmoji.png' className={styles.workEmoji}></img>
+              <span className={styles.aboutImgSpan}>
+                <img src='img/RotatedSVG.svg' className={styles.rotatedSvg}></img>
+              </span>
             </div>
             <div className={styles.aboutText}>
               <h2>ABOUT ME</h2>
