@@ -65,7 +65,9 @@ function MainSection() {
       <section id="about" className={styles.about}>
         <div className={styles.aboutContainer}>
           <div className={styles.aboutContent}>
-            <div className={styles.aboutImg}></div>
+            <div className={styles.aboutImg}>
+              <div className={styles.workEmoji}></div>
+            </div>
             <div className={styles.aboutText}>
               <h2>ABOUT ME</h2>
               <h1>Fullstack Developer Based in Israel 📍</h1>
