@@ -15,7 +15,7 @@ function MainSection() {
                 <h1>Fullstack React Developer 👋🏻</h1>
                 <p> Hi, i am yuval sidis. A passionate Fullstack and React Developer based in israel. 📍</p>
                 <div className={styles.heroLinks}>
-                  <a href='https://www.linkedin.com/in/yuval-sidis-7789122a0/'><LinkedInIcon/></a>
+                  <a href='https://www.linkedin.com/in/yuval-sidis-7789122a0/'><LinkedInIcon /></a>
                   <a href='https://github.com/yuvalsidis'><GitHubIcon /></a>
                 </div>
               </div>
@@ -49,7 +49,7 @@ function MainSection() {
                   <img src='https://skillicons.dev/icons?i=vite'></img>
                 </li>
                 <li>
-                <img src='https://skillicons.dev/icons?i=nodejs'></img>
+                  <img src='https://skillicons.dev/icons?i=nodejs'></img>
                 </li>
                 <li>
                   <img src='https://skillicons.dev/icons?i=npm'></img>
@@ -62,18 +62,26 @@ function MainSection() {
           </div>
         </div>
       </section>
-      <section id="about">
-        <h2>ABOUT ME</h2>
-        <h1>Fullstack Developer Based in Israel 📍</h1>
-        <p>Hey there, I'm Yuval Sidis, a Frontend Developer with a passion for crafting beautiful,
-          clean websites. My main focus is on frontend development,
-          where I specialize in creating seamless user experiences and captivating interfaces.
-        </p>
-        <p>
-          My stack primarily revolves around React/Next.js for frontend development,
-          where I dedicate myself to delivering high-quality solutions that exceed
-          user expectations while meeting technical requirements.
-        </p>
+      <section id="about" className={styles.about}>
+        <div className={styles.aboutContainer}>
+          <div className={styles.aboutContent}>
+            <div className={styles.aboutImg}>
+            </div>
+            <div className={styles.aboutText}>
+              <h2>ABOUT ME</h2>
+              <h1>Fullstack Developer Based in Israel 📍</h1>
+              <p>Hey there, I'm Yuval Sidis, a Fullstack Developer with a passion for crafting beautiful,
+                clean websites. My main focus is on frontend development,
+                where I specialize in creating seamless user experiences and captivating interfaces.
+              </p>
+              <p>
+                My stack primarily revolves around React/Next.js for frontend development,
+                where I dedicate myself to delivering high-quality solutions that exceed
+                user expectations while meeting technical requirements.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
       <section id="projects">
         <h1>Projects Section</h1>
