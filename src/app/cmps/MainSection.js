@@ -74,9 +74,9 @@ function MainSection() {
         <div className={styles.aboutContainer}>
           <div className={styles.aboutContent}>
             <div className={styles.aboutImg}>
-              <Image src='/img/workEmoji.png' className={styles.workEmoji} alt="img"></Image>
+              <Image width={64} height={64} src='/img/workEmoji.png' className={styles.workEmoji} alt="img"></Image>
               <span className={styles.aboutImgSpan}>
-                <Image src='img/RotatedSVG.svg' className={styles.rotatedSvg} alt="img"></Image>
+                <Image  width={64} height={64} src='img/RotatedSVG.svg' className={styles.rotatedSvg} alt="img"></Image>
               </span>
             </div>
             <div className={styles.aboutText}>

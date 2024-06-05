@@ -205,14 +205,15 @@
     left: 82%;
     transform: translate(0, 25%);
     width: 4rem !important;
-    height: 4rem;
+    height: 4rem !important;
     z-index: 100;
 }
 
 .rotatedSvg {
     position: absolute;
     animation: spin 9s linear infinite;
-    width: 10rem;
+    width: 10rem !important;
+    height: 10rem !important;
     z-index: 99;
 }
 
