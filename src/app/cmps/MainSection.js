@@ -29,7 +29,7 @@ function MainSection() {
               <p>Tech stack</p>
               <ul>
                 <li>
-                  <img src='https://skillicons.dev/icons?i=html' alt="img"></img>
+                  <img src='/img/icon.svg' alt="img"></img>
                 </li>
                 <li>
                   <img src='https://skillicons.dev/icons?i=css' alt="img"></img>
