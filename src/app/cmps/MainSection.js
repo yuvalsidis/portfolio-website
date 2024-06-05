@@ -32,37 +32,37 @@ function MainSection() {
                   <img src='/img/html.svg' alt="img"></img>
                 </li>
                 <li>
-                  <img src='/img/html.css' alt="img"></img>
+                  <img src='/img/css.svg' alt="img"></img>
                 </li>
                 <li>
-                  <img src='/img/html.js' alt="img"></img>
+                  <img src='/img/js.svg' alt="img"></img>
                 </li>
                 <li>
-                  <img src='/img/html.ts' alt="img"></img>
+                  <img src='/img/ts.svg' alt="img"></img>
                 </li>
                 <li>
-                  <img src='/img/html.react' alt="img"></img>
+                  <img src='/img/react.svg' alt="img"></img>
                 </li>
                 <li>
-                  <img src='/img/html.next' alt="img"></img>
+                  <img src='/img/next.svg' alt="img"></img>
                 </li>
                 <li>
-                  <img src='/img/html.sass' alt="img"></img>
+                  <img src='/img/sass.svg' alt="img"></img>
                 </li>
                 <li>
-                  <img src='/img/html.vite' alt="img"></img>
+                  <img src='/img/vite.svg' alt="img"></img>
                 </li>
                 <li>
-                  <img src='/img/html.nodejs' alt="img"></img>
+                  <img src='/img/nodejs.svg' alt="img"></img>
                 </li>
                 <li>
-                  <img src='/img/html.npm' alt="img"></img>
+                  <img src='/img/npm.svg' alt="img"></img>
                 </li>
                 <li>
-                  <img src='/img/html.git' alt="img"></img>
+                  <img src='/img/git.svg' alt="img"></img>
                 </li>
                 <li>
-                  <img src='/img/html.vercel' alt="img"></img>
+                  <img src='/img/vercel.svg' alt="img"></img>
                 </li>
               </ul>
             </div>
