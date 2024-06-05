@@ -31,7 +31,7 @@ function MainSection() {
                 <li>
                   <img src='/img/icon.svg' alt="img"></img>
                 </li>
-                <li>
+                {/* <li>
                   <img src='https://skillicons.dev/icons?i=css' alt="img"></img>
                 </li>
                 <li>
@@ -63,7 +63,7 @@ function MainSection() {
                 </li>
                 <li>
                   <img src='https://skillicons.dev/icons?i=vercel' alt="img"></img>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
