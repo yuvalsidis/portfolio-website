@@ -61,6 +61,9 @@ function MainSection() {
                 <li>
                   <img src='https://skillicons.dev/icons?i=git' alt="img"></img>
                 </li>
+                <li>
+                  <img src='https://skillicons.dev/icons?i=vercel' alt="img"></img>
+                </li>
               </ul>
             </div>
           </div>
