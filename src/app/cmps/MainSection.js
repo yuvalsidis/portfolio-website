@@ -27,6 +27,7 @@ function MainSection() {
             </div>
             <div className={styles.skills}>
               <p>Tech stack</p>
+      
               <ul>
                 <li>
                   <img src='/img/html.svg' alt="img"></img>
