@@ -29,37 +29,37 @@ function MainSection() {
               <p>Tech stack</p>
               <ul>
                 <li>
-                  <Image src='https://skillicons.dev/icons?i=html' alt="img"></Image>
+                  <img src='https://skillicons.dev/icons?i=html' alt="img"></img>
                 </li>
                 <li>
-                  <Image src='https://skillicons.dev/icons?i=css' alt="img"></Image>
+                  <img src='https://skillicons.dev/icons?i=css' alt="img"></img>
                 </li>
                 <li>
-                  <Image src='https://skillicons.dev/icons?i=js' alt="img"></Image>
+                  <img src='https://skillicons.dev/icons?i=js' alt="img"></img>
                 </li>
                 <li>
-                  <Image src='https://skillicons.dev/icons?i=ts' alt="img"></Image>
+                  <img src='https://skillicons.dev/icons?i=ts' alt="img"></img>
                 </li>
                 <li>
-                  <Image src='https://skillicons.dev/icons?i=react' alt="img"></Image>
+                  <img src='https://skillicons.dev/icons?i=react' alt="img"></img>
                 </li>
                 <li>
-                  <Image src='https://skillicons.dev/icons?i=next' alt="img"></Image>
+                  <img src='https://skillicons.dev/icons?i=next' alt="img"></img>
                 </li>
                 <li>
-                  <Image src='https://skillicons.dev/icons?i=sass' alt="img"></Image>
+                  <img src='https://skillicons.dev/icons?i=sass' alt="img"></img>
                 </li>
                 <li>
-                  <Image src='https://skillicons.dev/icons?i=vite' alt="img"></Image>
+                  <img src='https://skillicons.dev/icons?i=vite' alt="img"></img>
                 </li>
                 <li>
-                  <Image src='https://skillicons.dev/icons?i=nodejs' alt="img"></Image>
+                  <img src='https://skillicons.dev/icons?i=nodejs' alt="img"></img>
                 </li>
                 <li>
-                  <Image src='https://skillicons.dev/icons?i=npm' alt="img"></Image>
+                  <img src='https://skillicons.dev/icons?i=npm' alt="img"></img>
                 </li>
                 <li>
-                  <Image src='https://skillicons.dev/icons?i=git' alt="img"></Image>
+                  <img src='https://skillicons.dev/icons?i=git' alt="img"></img>
                 </li>
               </ul>
             </div>
