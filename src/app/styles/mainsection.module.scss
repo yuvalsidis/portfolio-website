@@ -72,7 +72,7 @@
 .skills {
     display: flex;
     align-items: center;
-
+    justify-content: center;
     p {
         color: #555;
         font-size: 1.13rem;
@@ -85,7 +85,7 @@
         list-style: none;
 
         li {
-            margin-left: 10px;
+            gap: 10px;
 
             &:hover {
                 animation: shake 0.5s
