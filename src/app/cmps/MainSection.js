@@ -32,37 +32,37 @@ function MainSection() {
                   <img src='/img/html.svg' alt="img"></img>
                 </li>
                 <li>
-                  <img src='https://skillicons.dev/icons?i=css' alt="img"></img>
+                  <img src='/img/html.css' alt="img"></img>
                 </li>
                 <li>
-                  <img src='https://skillicons.dev/icons?i=js' alt="img"></img>
+                  <img src='/img/html.js' alt="img"></img>
                 </li>
                 <li>
-                  <img src='https://skillicons.dev/icons?i=ts' alt="img"></img>
+                  <img src='/img/html.ts' alt="img"></img>
                 </li>
                 <li>
-                  <img src='https://skillicons.dev/icons?i=react' alt="img"></img>
+                  <img src='/img/html.react' alt="img"></img>
                 </li>
                 <li>
-                  <img src='https://skillicons.dev/icons?i=next' alt="img"></img>
+                  <img src='/img/html.next' alt="img"></img>
                 </li>
                 <li>
-                  <img src='https://skillicons.dev/icons?i=sass' alt="img"></img>
+                  <img src='/img/html.sass' alt="img"></img>
                 </li>
                 <li>
-                  <img src='https://skillicons.dev/icons?i=vite' alt="img"></img>
+                  <img src='/img/html.vite' alt="img"></img>
                 </li>
                 <li>
-                  <img src='https://skillicons.dev/icons?i=nodejs' alt="img"></img>
+                  <img src='/img/html.nodejs' alt="img"></img>
                 </li>
                 <li>
-                  <img src='https://skillicons.dev/icons?i=npm' alt="img"></img>
+                  <img src='/img/html.npm' alt="img"></img>
                 </li>
                 <li>
-                  <img src='https://skillicons.dev/icons?i=git' alt="img"></img>
+                  <img src='/img/html.git' alt="img"></img>
                 </li>
                 <li>
-                  <img src='https://skillicons.dev/icons?i=vercel' alt="img"></img>
+                  <img src='/img/html.vercel' alt="img"></img>
                 </li>
               </ul>
             </div>
