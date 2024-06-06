@@ -1,8 +1,6 @@
 body {
      font-family: 'MainFont';
-     margin-left: 0px;
-     margin-top: 0px;
-     margin-right: 0px;
+     margin: 0px;
      width: 100%;
      box-sizing: border-box;
      scroll-behavior: smooth;
