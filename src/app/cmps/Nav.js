@@ -22,9 +22,24 @@ const Nav = () => {
         }
     }, [])
 
+    useEffect(() => {
+        document.addEventListener('mousedown', handleClickOutside);
+    
+        return () => {
+          document.removeEventListener('mousedown', handleClickOutside);
+        };
+      }, [isMenuOpen]);
+
+
     const onClickMenu = () => {
         setIsMenuOpen(!isMenuOpen)
     }
+
+    const handleClickOutside = (event) => {
+        if (isMenuOpen && !event.target.closest(`.${styles.resizedNav}`)) {
+          setIsMenuOpen(false);
+        }
+      };
 
     const handleScrollTo = (e, elementId) => {
         e.preventDefault();
