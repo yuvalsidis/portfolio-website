@@ -72,7 +72,7 @@
 .skills {
     display: flex;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
 
     p {
         color: #555;
@@ -84,7 +84,8 @@
         display: flex;
         list-style: none;
         justify-self: center;
-    
+        padding: 0px;
+
         li {
            
             &:hover {
