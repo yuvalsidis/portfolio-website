@@ -52,7 +52,7 @@ const Nav = () => {
 
     return (
         <>
-            {!isWiderThan1020 && <MenuOutlinedIcon onClick={onClickMenu} />}
+            {!isWiderThan1020 && <MenuOutlinedIcon className={styles.menu} onClick={onClickMenu} />}
             <nav className={`
             ${isWiderThan1020 ? styles.nav : styles.resizedNav}
             ${isMenuOpen ? styles.expanded : ''}`}>
