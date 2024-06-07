@@ -24,22 +24,22 @@ const Nav = () => {
 
     useEffect(() => {
         document.addEventListener('mousedown', handleClickOutside);
-    
+
         return () => {
-          document.removeEventListener('mousedown', handleClickOutside);
+            document.removeEventListener('mousedown', handleClickOutside);
         };
-      }, [isMenuOpen]);
+    }, [isMenuOpen]);
 
-
-    const onClickMenu = () => {
-        setIsMenuOpen(!isMenuOpen)
-    }
 
     const handleClickOutside = (event) => {
         if (isMenuOpen && !event.target.closest(`.${styles.resizedNav}`)) {
-          setIsMenuOpen(false);
+            setIsMenuOpen(false);
         }
-      };
+    };
+    
+    const onClickMenu = () => {
+        setIsMenuOpen(!isMenuOpen)
+    }
 
     const handleScrollTo = (e, elementId) => {
         e.preventDefault();
@@ -70,7 +70,7 @@ const Nav = () => {
                 </a>
             </nav>
             <div
-                className={`${styles.shadow-screen} ${isMenuOpen ? styles.active : ''}`}
+                className={`${styles.shadow - screen} ${isMenuOpen ? styles.active : ''}`}
             ></div>
         </>
     )
