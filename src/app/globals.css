@@ -30,15 +30,6 @@ header {
           font-size: 1.3rem;
           height: 0px;
      }
-
-     nav>* {
-          margin-left: 20px;
-          text-decoration: none;
-          font-size: 1.07rem;
-          color: #2D2E32;
-          font-family: 'MainFont-semi-bold';
-     }
-
 }
 
 footer {
@@ -72,12 +63,4 @@ footer {
 @font-face {
      font-family: 'MainFont-semi-bold';
      src: url('/fonts/Poppins-SemiBold.ttf');
-}
-
-@media (max-width: 1020px){
-    header{
-     nav{
-          display: none;
-     }
-    }
 }

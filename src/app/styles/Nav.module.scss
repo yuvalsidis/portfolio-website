@@ -1,0 +1,32 @@
+.nav {
+    >*{
+        margin-left: 20px;
+        text-decoration: none;
+        font-size: 1.07rem;
+        color: #2D2E32;
+        font-family: 'MainFont-semi-bold';
+    }
+}
+
+.resizedNav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: width 600ms;
+    right: 0;
+    gap: 50px;
+    width: 0;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    display: none;
+    text-decoration: none;
+    font-size: 1.07rem;
+    color: #2D2E32;
+    font-family: 'MainFont-semi-bold';
+}
+
+.resizedNav.expanded {
+    width: 30%; 
+}

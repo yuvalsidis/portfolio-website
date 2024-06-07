@@ -4,21 +4,19 @@ import { Children } from "react";
 import Link from 'next/link';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import dynamic from 'next/dynamic';
+
+const Nav = dynamic(() => import('./cmps/Nav'), { ssr: false });
 
 export default function RootLayout({ children }) {
- 
-  
+
+
   return (
     <html lang="en">
       <body>
         <header>
           <h3 className="logo">Yuval.dev</ h3>
-          <nav>
-            <Link href="#home" >Home</Link>
-            <Link href="#about">About</Link>
-            <Link href="#projects">Projects</Link>
-            <Link href="#contact">Contact</Link>
-          </nav>
+          <Nav />
         </header>
         <main>{children}</main>
         <footer>
