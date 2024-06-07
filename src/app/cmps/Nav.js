@@ -30,8 +30,9 @@ const Nav = () => {
         e.preventDefault();
         const element = document.getElementById(elementId);
         if (element) {
-            element.scrollIntoView({ behavior: 'smooth', block: 'start'});
+            element.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
+        setIsMenuOpen(false)
     };
 
     return (
@@ -39,7 +40,7 @@ const Nav = () => {
             {!isWiderThan1020 && <MenuOutlinedIcon onClick={onClickMenu} />}
             <nav className={`
             ${isWiderThan1020 ? styles.nav : styles.resizedNav}
-            ${isMenuOpen ? styles.expended : ''}`}>
+            ${isMenuOpen ? styles.expanded : ''}`}>
                 <a href="#home" onClick={(e) => handleScrollTo(e, 'home')}>
                     Home
                 </a>
@@ -53,6 +54,9 @@ const Nav = () => {
                     Contact
                 </a>
             </nav>
+            <div
+                className={`${styles.shadow-screen} ${isMenuOpen ? styles.active : ''}`}
+            ></div>
         </>
     )
 }
