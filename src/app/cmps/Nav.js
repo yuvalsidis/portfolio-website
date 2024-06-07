@@ -36,7 +36,7 @@ const Nav = () => {
             setIsMenuOpen(false);
         }
     };
-    
+
     const onClickMenu = () => {
         setIsMenuOpen(!isMenuOpen)
     }
@@ -52,7 +52,10 @@ const Nav = () => {
 
     return (
         <>
-            {!isWiderThan1020 && <MenuOutlinedIcon className={styles.menu} onClick={onClickMenu} />}
+            {!isWiderThan1020 &&
+                <div className={styles.menu} onClick={onClickMenu}>
+                    <MenuOutlinedIcon />
+                </div>}
             <nav className={`
             ${isWiderThan1020 ? styles.nav : styles.resizedNav}
             ${isMenuOpen ? styles.expanded : ''}`}>
