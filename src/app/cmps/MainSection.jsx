@@ -1,4 +1,4 @@
-// MainSection.js
+// MainSection.jsx
 import React from 'react';
 import styles from '../styles/mainsection.module.scss'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -7,6 +7,7 @@ import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import Image from 'next/image';
+import EmailLink from './EmailLink'
 
 function MainSection() {
   return (
@@ -132,7 +133,7 @@ function MainSection() {
                 </div>
                 <div>
                   <p>mail</p>
-                  <p>yuvalsidis@gmail.com</p>
+                  <EmailLink/>
                 </div>
               </div>
               <div className={styles.ResourceItem}>
