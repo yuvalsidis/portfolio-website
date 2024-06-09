@@ -1,5 +1,6 @@
 import styles from '../styles/ProjectSection.module.scss'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const ProjectSection = () => {
 
@@ -15,7 +16,7 @@ const ProjectSection = () => {
                         This project, built with React, SCSS, Vite, and Redux,
                         showcases a seamless user experience with demo data to illustrate its functionality.
                     </div>
-                    <a className='link'>https://github.com/yuvalsidis/Yuvigram-frontend-instegram</a>
+                    <Link href='https://github.com/yuvalsidis/Yuvigram-frontend-instegram' className='link'>Github Repository Link</Link>
                 </div>
             </div>
         </div>
