@@ -1,0 +1,60 @@
+.ProjectSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    gap: 9rem;
+    margin: 0 auto;
+    max-width: 107rem;
+    padding: 4rem 4rem;
+
+    .InstagramProjectImg {
+
+        position: relative;
+        border-radius: 1.7rem;
+        height: 20rem;
+        width: 26rem;
+
+    }
+     
+    .ProjectContent{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .ProjectDescription {
+            color: #555;
+            font-size: 1.13rem;
+            max-width: 30rem;
+            line-height: 1.8rem;
+            margin: 0px;
+            font-weight: bold;
+        }
+        h2 {
+            color: #147efb;
+            font-size: 1.1rem;
+            font-family: 'MainFont-bold'
+        }
+
+        a{
+            color: #147efb;
+            font-size: 1.1rem;
+            font-family: 'MainFont-bold';
+            padding-top: 20px
+        }
+    }
+}
+
+@media (max-width: 900px){
+    .ProjectSection{
+        flex-direction: column;
+        gap: 2rem;
+    } 
+    .ProjectContent{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .ProjectDescription{
+        text-align: center;
+    }
+}
