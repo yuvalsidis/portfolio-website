@@ -1,6 +1,6 @@
 // MainSection.jsx
 import React from 'react';
-import styles from '../styles/mainsection.module.scss'
+import styles from '../styles/MainSection.module.scss'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
@@ -8,6 +8,7 @@ import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import Image from 'next/image';
 import EmailLink from './EmailLink'
+import ProjectSection from './ProjectSection';
 
 function MainSection() {
   return (
@@ -97,7 +98,7 @@ function MainSection() {
       </section>
       <section id="projects" className={styles.projects}>
         <div className={styles.projectsContainer}>
-          <p> New projects coming soon.. 🤠 </p>
+          <ProjectSection/>
         </div>
       </section>
       <section id="contact" className={styles.contact}>
