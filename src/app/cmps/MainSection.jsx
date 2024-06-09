@@ -98,6 +98,7 @@ function MainSection() {
       </section>
       <section id="projects" className={styles.projects}>
         <div className={styles.projectsContainer}>
+          <h1>My Work</h1>
           <ProjectSection/>
         </div>
       </section>

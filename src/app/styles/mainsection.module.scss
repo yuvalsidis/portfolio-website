@@ -87,10 +87,11 @@
         padding: 0px;
 
         li {
-           
+
             &:hover {
                 animation: shake 0.5s
             }
+
             padding: 4px;
         }
     }
@@ -160,7 +161,7 @@
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-           
+
         }
     }
 
@@ -361,6 +362,13 @@
         color: #555;
         font-weight: bold;
     }
+
+    h1 {
+        color: #147efb;
+        font-size: 1.1rem;
+        font-family: "MainFont-bold";
+        text-align: center;
+    }
 }
 
 .contact {
@@ -406,14 +414,15 @@
         gap: 10px;
         color: #555;
         font-weight: bold;
-        p{
+
+        p {
             line-height: 0.2rem;
         }
     }
 }
 
-@media (max-width: 650px){
-    .contactReasources{
+@media (max-width: 650px) {
+    .contactReasources {
         flex-direction: column;
     }
 }
