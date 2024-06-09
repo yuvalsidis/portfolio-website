@@ -39,7 +39,9 @@
             color: #147efb;
             font-size: 1.1rem;
             font-family: 'MainFont-bold';
-            padding-top: 20px
+            margin-top: 20px;
+            text-decoration: none;
+            animation: flicker 1s infinite alternate;
         }
     }
 }
@@ -56,5 +58,17 @@
     }
     .ProjectDescription{
         text-align: center;
+    }
+}
+
+@keyframes flicker {
+    0% {
+      background-color: transparent;
+    }
+    50% {
+      background-color: rgb(255, 255, 134); 
+    }
+    100% {
+      background-color: transparent;
     }
 }

@@ -16,7 +16,7 @@ const ProjectSection = () => {
                         This project, built with React, SCSS, Vite, and Redux,
                         showcases a seamless user experience with demo data to illustrate its functionality.
                     </div>
-                    <Link href='https://github.com/yuvalsidis/Yuvigram-frontend-instegram' className='link'>Github Repository Link</Link>
+                    <Link href='https://github.com/yuvalsidis/Yuvigram-frontend-instegram'>Github Repository Link</Link>
                 </div>
             </div>
         </div>
