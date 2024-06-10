@@ -1,7 +1,7 @@
   // MainSection.jsx
   import React from 'react';
-  import styles from './styles/MainSection.module.scss';
-
+  import styles from '../styles/MainSection.module.scss';
+  
   import LinkedInIcon from '@mui/icons-material/LinkedIn';
   import GitHubIcon from '@mui/icons-material/GitHub';
   import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
