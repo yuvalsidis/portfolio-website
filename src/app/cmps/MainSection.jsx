@@ -10,6 +10,7 @@ import Image from 'next/image';
 import EmailLink from './EmailLink'
 import ProjectSection from './ProjectSection';
 
+
 function MainSection() {
   return (
     <>
