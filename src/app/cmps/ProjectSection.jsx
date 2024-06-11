@@ -9,7 +9,7 @@ const ProjectSection = () => {
             <div className={styles.ProjectSection}>
                 <Image width={416} height={520} src='/img/instagram.png' className={styles.InstagramProjectImg}></Image>
                 <div className={styles.ProjectContent}>
-                    <h2>Instegram Project</h2>
+                    <h2>Instagram Project</h2>
                     <div className={styles.ProjectDescription}>
                         I've developed a social platform similar to Instagram,
                         enabling users to upload, share, and comment on images.
