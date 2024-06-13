@@ -1,3 +1,8 @@
+html{
+     overflow-x: hidden;
+}
+
+
 body {
      font-family: 'MainFont';
      margin: 0px;
@@ -36,6 +41,7 @@ footer {
      padding: 2em 0;
      width: 100%;
      color: white;
+     overflow-x: hidden;
 }
 
 .footerContainer {
