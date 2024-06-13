@@ -2,18 +2,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 80rem;
     gap: 9rem;
     margin: 0 auto;
     max-width: 107rem;
-    padding: 4rem 4rem;
-
+    
+   
     .InstagramProjectImg {
 
         position: relative;
         border-radius: 1.7rem;
-        height: 20rem;
-        width: 26rem;
+        height: 240px;
+        width: 320px;
 
     }
      
@@ -21,9 +20,10 @@
         display: flex;
         flex-direction: column;
         gap: 10px;
+        
         .ProjectDescription {
             color: #555;
-            font-size: 1.13rem;
+            font-size: 1rem;
             max-width: 30rem;
             line-height: 1.8rem;
             margin: 0px;
